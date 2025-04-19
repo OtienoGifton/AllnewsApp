@@ -93,7 +93,7 @@ function NavBar() {
           </Link>
           <Link onClick={ChangeModemobile}>Editors</Link>
           <Link to="/favorite" onClick={Removebar}>
-            Favorites
+            Theme
           </Link>
         </div>
       </div>
