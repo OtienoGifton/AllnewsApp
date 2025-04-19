@@ -290,13 +290,13 @@
   max-width: 300px;
   width: 80vw;
   background: var(--nav-bg);
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  z-index: 100;
+  z-index: 9999;
   padding: 4rem 1.5rem;
 }
 .showmenu {
