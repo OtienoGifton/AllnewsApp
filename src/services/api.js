@@ -56,7 +56,7 @@ export const GetBookByDefault = async () => {
 };
 
 //the tech page api
-const ApiKEY = "pub_80979aa2d9982cda7eea2edb50e19644adabb"; //removed the b here
+const ApiKEY = "pub_816873701cde88e1c319e46f85d5566d5b9e6"; //removed the b here
 
 export const GetTechNews = async () => {
   try {
@@ -87,7 +87,7 @@ export const GetAllNews = async () => {
 };
 
 //api for for football news
-const Api_KEY = "pub_80979aa2d9982cda7eea2edb50e19644adabb";
+const Api_KEY = "pub_816873701cde88e1c319e46f85d5566d5b9e6";
 export const getfottballNews = async () => {
   const response = await fetch(
     `https://newsdata.io/api/1/news?apikey=${Api_KEY}&q=english premier league OR european football OR champions league&category=sports&language=en`
